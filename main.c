@@ -4,9 +4,9 @@ int main(int argc, char **argv) {
 	size_t arg = 0;
 	
 	if (argc <= 1) {
-		puts("Hello world!");
+		puts("Hello, world!");
 	} else {
-		fputs("Hello", stdout);
+		fputs("Hello,", stdout);
 
 		while (--argc) {
 			putchar(' ');
