@@ -4,7 +4,7 @@ int main(int argc, char **argv) {
 	size_t arg = 0;
 	
 	if (argc <= 1) {
-		puts("Hello, world!");
+		puts("Hello, earth!");
 	} else {
 		fputs("Hello,", stdout);
 
@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
 			fputs(argv[++arg], stdout);
 		}
 
-		puts("!");
+		puts(", and also earth!");
 	}
 
 	return 0;

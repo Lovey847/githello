@@ -6,7 +6,7 @@ SRC=main.c
 OPT=-std=c89 -pedantic -Wall -Wextra -Werror
 DOPT=-g
 ROPT=-DNDEBUG -O3
-EXEC=hello
+EXEC=earth
 
 all: debug release
 
@@ -17,4 +17,4 @@ release:
 	$(CC) $(OPT) $(ROPT) $(SRC) -o $(EXEC)
 
 clean:
-	$(DELFILE) dhello hello
+	$(DELFILE) dearth earth
