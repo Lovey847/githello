@@ -17,4 +17,4 @@ release:
 	$(CC) $(OPT) $(ROPT) $(SRC) -o $(EXEC)
 
 clean:
-	$(DELFILE) dearth earth
+	$(DELFILE) d$(EXEC) $(EXEC)
